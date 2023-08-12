@@ -1,0 +1,41 @@
+/* Home.module.css */
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-block-start: 15%;
+    margin-block-end: 1rem;
+    opacity: 0.6;
+  }
+  
+  .card{
+    inline-size: 100%;
+    margin: auto;
+    border-radius: 12px;
+    background-color: aqua;
+    padding: 4rem 0;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .card h3{
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem; 
+  }
+  
+  @media (max-width: 768px) {
+  
+    .header{
+      margin-block-start: 30%;
+    }
+  
+    .card{
+        font-size: 12px;
+        padding: 2rem;
+    }
+  
+  }
